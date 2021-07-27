@@ -64,7 +64,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Regist"/>
                                 <connections>
-                                    <segue destination="aNd-pO-NMw" kind="presentation" id="KvT-zb-deE"/>
+                                    <segue destination="aNd-pO-NMw" kind="presentation" modalPresentationStyle="fullScreen" id="KvT-zb-deE"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -86,7 +86,7 @@
             <objects>
                 <viewController id="aNd-pO-NMw" customClass="FormViewController" customModule="SubmitValue_Back" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Tan-Lb-dK2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이메일" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUr-4j-LLV">
